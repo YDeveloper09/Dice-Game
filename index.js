@@ -1,4 +1,6 @@
 
+document.querySelector("button").addEventListener("click", randomgen)
+
 function randomgen() {
     let randomnumber = Math.floor(Math.random() * 6) + 1;
     let randomdice = "/d" + randomnumber +".png";
